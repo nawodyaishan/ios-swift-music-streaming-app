@@ -14,6 +14,7 @@
 		663DC01D27D1C4B700F0E345 /* UrMusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DC01C27D1C4B700F0E345 /* UrMusicAppTests.swift */; };
 		663DC02727D1C4B700F0E345 /* UrMusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DC02627D1C4B700F0E345 /* UrMusicAppUITests.swift */; };
 		663DC02927D1C4B700F0E345 /* UrMusicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DC02827D1C4B700F0E345 /* UrMusicAppUITestsLaunchTests.swift */; };
+		665FDF6D27D218D80067E07E /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FDF6C27D218D80067E07E /* BlurEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		663DC02227D1C4B700F0E345 /* UrMusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrMusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663DC02627D1C4B700F0E345 /* UrMusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrMusicAppUITests.swift; sourceTree = "<group>"; };
 		663DC02827D1C4B700F0E345 /* UrMusicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrMusicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		665FDF6C27D218D80067E07E /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				663DC00D27D1C4B500F0E345 /* ContentView.swift */,
 				663DC00F27D1C4B700F0E345 /* Assets.xcassets */,
 				663DC01127D1C4B700F0E345 /* Preview Content */,
+				665FDF6C27D218D80067E07E /* BlurEffect.swift */,
 			);
 			path = UrMusicApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665FDF6D27D218D80067E07E /* BlurEffect.swift in Sources */,
 				663DC00E27D1C4B500F0E345 /* ContentView.swift in Sources */,
 				663DC00C27D1C4B500F0E345 /* UrMusicAppApp.swift in Sources */,
 			);
