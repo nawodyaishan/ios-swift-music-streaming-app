@@ -23,10 +23,34 @@ struct Song : Hashable{
 
 struct ContentView : View {
     
-    var albums : [Album(name: String, image: String, songs: [Song])]
-}
+    var albums = [Album(name: "Album 1", image: "1", songs: [Song(name: "Song 1", time : "2:35"),
+                                                             Song(name: "Song 2", time : "2:35"),
+                                                             Song(name: "Song 3", time : "2:35"),
+                                                             Song(name: "Song 4", time : "2:35"),
+                                                             Song(name: "Song 5", time : "2:35")]),
+                  Album(name: "Album 2", image: "2", songs: [Song(name: "Song 1", time : "2:35"),
+                                                                           Song(name: "Song 2", time : "2:35"),
+                                                                           Song(name: "Song 3", time : "2:35"),
+                                                                           Song(name: "Song 4", time : "2:35"),
+                                                                           Song(name: "Song 5", time : "2:35")]),
+                  Album(name: "Album 3", image: "3", songs: [Song(name: "Song 1", time : "2:35"),
+                                                                           Song(name: "Song 2", time : "2:35"),
+                                                                           Song(name: "Song 3", time : "2:35"),
+                                                                           Song(name: "Song 4", time : "2:35"),
+                                                                           Song(name: "Song 5", time : "2:35")]),
+                  Album(name: "Album 4", image: "4", songs: [Song(name: "Song 1", time : "2:35"),
+                                                                           Song(name: "Song 2", time : "2:35"),
+                                                                           Song(name: "Song 3", time : "2:35"),
+                                                                           Song(name: "Song 4", time : "2:35"),
+                                                                           Song(name: "Song 5", time : "2:35")]),
+                  Album(name: "Album 5", image: "5", songs: [Song(name: "Song 1", time : "2:35"),
+                                                                           Song(name: "Song 2", time : "2:35"),
+                                                                           Song(name: "Song 3", time : "2:35"),
+                                                                           Song(name: "Song 4", time : "2:35"),
+                                                                           Song(name: "Song 5", time : "2:35")]),
+    ]
 
-struct ContentView: View {
+
     var body: some View {
         NavigationView{
             ScrollView{
