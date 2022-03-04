@@ -21,6 +21,11 @@ struct Song : Hashable{
     
 }
 
+struct ContentView : View {
+    
+    var albums : [Album(name: String, image: String, songs: [Song])]
+}
+
 struct ContentView: View {
     var body: some View {
         NavigationView{
