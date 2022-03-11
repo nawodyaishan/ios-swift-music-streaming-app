@@ -83,13 +83,21 @@ struct ContentView : View {
 struct AlbumArt : View {
     var album : Album
     var body: some View{
-        EmptyView()
-        ZStack {
-            Image(album.image).resizable().aspectRatio(contentMode: .fill).frame(width: 170, height: 170, alignment: .center)
+        ZStack (alignment: .center, content: {
+            Image(album.image)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 170, height: 170, alignment: .center)
             ZStack{
+                Blur(style: .dark)
                 Text(album.name).foregroundColor(.white)
-            }
-        }.clipped().cornerRadius(20).shadow(radius: 10).padding(15)
+            }.frame(height: 60, alignment:
+                            .center)
+        }).frame(width: 170, height: 170, alignment: .center)
+            .clipped()
+            .cornerRadius(20)
+            .shadow(radius: 10)
+            .padding(20)
     }
 }
 
